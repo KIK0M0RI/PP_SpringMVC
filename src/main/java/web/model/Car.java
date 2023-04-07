@@ -4,12 +4,12 @@ public class Car {
 
     private String model;
     private String color;
-    private String series;
+    private int series;
 
     public Car() {
     }
 
-    public Car(String model, String color, String series) {
+    public Car(String model, String color, int series) {
         this.model = model;
         this.color = color;
         this.series = series;
@@ -31,11 +31,11 @@ public class Car {
         this.color = color;
     }
 
-    public String getSeries() {
+    public int getSeries() {
         return series;
     }
 
-    public void setSeries(String series) {
+    public void setSeries(int series) {
         this.series = series;
     }
 
