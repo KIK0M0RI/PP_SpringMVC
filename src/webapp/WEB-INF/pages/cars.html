@@ -16,9 +16,9 @@
         <tbody>
             <th:block th:each="car : ${cars}">
                 <tr>
-                    <th th:text="${car.getModel()}">model</th>
-                    <th th:text="${car.getColor()}">color</th>
-                    <th th:text="${car.getSeries()}">series</th>
+                    <td th:text="${car.getModel()}">model</td>
+                    <td th:text="${car.getColor()}">color</td>
+                    <td th:text="${car.getSeries()}">series</td>
                 </tr>
             </th:block>
         </tbody>
